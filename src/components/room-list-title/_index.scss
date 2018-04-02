@@ -1,0 +1,28 @@
+.room-warp .title,.content .title{
+  width: 100%;
+  height: rem(90);
+  line-height: rem(90);
+  margin: 0 auto;
+  background: white;
+  span{
+    display: inline-block;
+    font-size: rem(32);
+    color: #ff9900;
+  }
+  .t1,.t2,.t3,.t4{
+    background: #ff9900;
+    width: rem(20);
+    height: rem(20);
+    border-radius: 50%;
+    vertical-align: middle;
+    margin: 0 rem(15);
+  }
+  .t1,.t4{
+    width: rem(10);
+    height: rem(10);
+    margin: 0;
+  }
+}
+.room-warp .title{
+  background: none;
+}

@@ -1,0 +1,36 @@
+.slider-wrap{
+  margin: 0 auto;
+  position: relative;
+  height: rem(280);
+  width: 100%;
+  ul{
+    li{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+    li:fist-child{
+      z-index: 1;
+    }
+  }
+  .subscript{
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: rem(230);
+    span{
+      display: inline-block;
+      width: rem(20);
+      height: rem(20);
+      border-radius: rem(10);
+      background: red;
+    }
+  }
+  img{
+    display: block;
+    width: 100%;
+    height: rem(280);
+  }
+}

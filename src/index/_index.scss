@@ -1,0 +1,20 @@
+.room-warp{
+  width: 100%;
+  min-height: -webkit-calc(100% - 11.85rem);
+  min-height: calc(100% - 11.85rem);
+  background: #ffecb3;
+  overflow: hidden;
+  padding: rem(20) 0;
+  box-sizing: border-box;
+}
+.content{
+  width: 95%;
+  min-height: -webkit-calc(100% - 13.08rem);
+  min-height: calc(100% - 13.08rem);
+  position: absolute;
+  top: rem(400);
+  left: 2.5%;
+  background: #f7f8f4;
+  border-radius: rem(20);
+  overflow: hidden;
+}

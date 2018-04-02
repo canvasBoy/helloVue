@@ -1,0 +1,56 @@
+.header-warp{
+  overflow: hidden;
+  height: rem(100);
+}
+header{
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1000px;
+  height: rem(100);
+  line-height: rem(100);
+  .left,.right{
+    width: 20%;
+    height: rem(100);
+    line-height: rem(100);
+    .icon{
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+  .left{
+    float: left;
+    text-align: left;
+    .icon{
+      width: rem(44);
+      height: rem(38);
+      margin-left: rem(30);
+    }
+  }
+  .right{
+    float: right;
+    text-align: right;
+    .icon{
+      width: rem(42);
+      height: rem(43);
+      margin-right: rem(30);
+    }
+  }
+  .center{
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    .text_title{
+      font-family: 'my-BoLe';
+      font-size: rem(36);
+      font-weight: 550;
+      color: white;
+      text-shadow:#000 1px 0 0,#000 0 1px 0,#000 -1px 0 0,#000 0 -1px 0;
+      -webkit-text-shadow:#000 1px 0 0,#000 0 1px 0,#000 -1px 0 0,#000 0 -1px 0;
+      -moz-text-shadow:#000 1px 0 0,#000 0 1px 0,#000 -1px 0 0,#000 0 -1px 0;
+      *filter: Glow(color=#000, strength=1);
+    }
+  }
+}

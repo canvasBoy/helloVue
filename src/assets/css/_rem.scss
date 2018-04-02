@@ -1,0 +1,19 @@
+/**
+* user defined Default Font Size
+*/
+$fontSize: 16px !default;
+
+/**
+* set html Font Size
+*/
+html{
+  font-size: $fontSize;
+}
+
+/**
+* @method rem()  Defines functions that use units.
+* @param  $px    Twice as much as the actual size, it is also the size of the general UI drawing.
+*/
+@function rem($px){
+  @return $px/$fontSize * 1px * 0.5rem;
+}
